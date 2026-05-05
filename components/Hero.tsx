@@ -5,6 +5,15 @@ import MagicButton from './ui/MagicButton'
 import { IoMdDownload } from "react-icons/io";
 
 const Hero = () => {
+
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/cv-tria.pdf"; 
+    link.download = "cv-tria.pdf"; 
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     // 1. CONTAINER UTAMA: relative, h-screen, center content
     <div className="relative h-screen w-full flex justify-center items-center overflow-hidden bg-slate-950">
@@ -25,9 +34,12 @@ const Hero = () => {
 
         <p className='text-white text-left md:tracking-wider mb-4 text-sm md:text-lg'>Hi, I&apos;m Tria, a Front-End Developer based in Indonesia.</p>
 
-        <a href="#about">
-            <MagicButton title="Download CV" icon={<IoMdDownload />} position='right' />
-        </a>
+       <MagicButton 
+            title="Download CV" 
+            icon={<IoMdDownload />} 
+            position='right' 
+            handleClick={handleDownload} 
+        />
       </div>
       
     </div> 
