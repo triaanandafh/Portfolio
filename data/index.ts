@@ -47,11 +47,6 @@ export const projects = [
     link: "https://si-kompen.vercel.app/",
   },
   {
-    id: 6,
-    title: "Pokemon Battle Simulator",
-    des: "Create an engaging Pokemon battle simulator using React where players can choose their favorite Pokemon and battle against others, complete with dynamic animations and sound effects to enhance the gaming experience.",
-    img: "/pokemon.png",
-    iconLists: [ "/re.svg", "/css.svg", "/js.svg"],
-    link: "https://coba-react-git-main-triafadillah1-2624s-projects.vercel.app/",
+  
   },
 ];

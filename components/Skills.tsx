@@ -1,7 +1,7 @@
 import React from "react";
 // Import icon dari react-icons
 import { FaGithub, FaReact, FaNodeJs } from "react-icons/fa";
-import { SiWordpress, SiTypescript, SiNextdotjs, SiTailwindcss, SiExpress, SiJavascript } from "react-icons/si";
+import { SiWordpress, SiTypescript, SiNextdotjs, SiTailwindcss, SiExpress, SiJavascript, SiWebflow } from "react-icons/si";
 import { VscAzureDevops } from "react-icons/vsc"; // Untuk DevOps icon
 
 const Skills = () => {
@@ -74,6 +74,10 @@ const skillsData = [
     {
         name: "Wordpress",
         icon: <SiWordpress />,
+    },
+    {
+        name: "Webflow",
+        icon: <SiWebflow />,
     },
 ];
 
