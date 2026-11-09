@@ -45,8 +45,5 @@ export const projects = [
     img: "/sikompen.png",
     iconLists: ["/re.svg", "/ts.svg", "/js.svg", "/tail.svg"],
     link: "https://si-kompen.vercel.app/",
-  },
-  {
-  
-  },
+  }
 ];
